@@ -3,6 +3,7 @@ import "../compounts/Hero.css"
 
 export default function Hero() {
   return (
+    <>
     <main>
     <p className="main-heading">
       All things finance, <br /> right here.
@@ -13,6 +14,14 @@ export default function Hero() {
       src="https://assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/cityScapeImage1.7be26e20.webp"
       alt=""
     />
-  </main>
+    </main>
+
+    <div className='span'>
+    <span>India's #1</span>
+    <span>Stock Broker</span>
+    <span>Trusted by 10 Mn+ active investors</span>
+    </div>
+    </>
+  
   )
 }
