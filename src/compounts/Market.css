@@ -1,0 +1,26 @@
+* {
+    padding-left: 5px;
+}
+.container {
+    display: flex;
+    padding-top: 6rem;
+}
+
+.container-left {
+    padding-right: 200px;
+}
+.para-1 {
+    font-size: 4rem;
+    line-height: 0%;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para-2 {
+    font-size: 1.3rem;
+    color: rgb(153, 150, 150);
+}
+
+.container-right {
+    padding-right: 0%;
+}
