@@ -13,7 +13,7 @@ function Header() {
     </a>
   </div>
   <div className="header-search">
-    <input type="search" placeholder="Search groww..." />
+    <i class="fa-solid fa-magnifying-glass"></i> <input type="search" placeholder="Search groww..."/>
   </div>
   <div className="login-register">
     <a href="/">Login/Register</a>
