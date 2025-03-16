@@ -22,5 +22,29 @@
 }
 
 .container-right {
-    padding-right: 0%;
+    padding-right: 40px;
+    padding-left: 80px;
+}
+
+.stock {
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 10px;
+    margin-right: 150px;
+}
+
+.stock img {
+    width: 40px;
+    height: 50px;
+}
+
+.stock p {
+    font-size: 1.2rem;
+}
+
+.stock i {
+    padding: 20px;
+    /* padding-left: 350px; */
 }

@@ -22,6 +22,7 @@ function Market() {
             alt=""
           />
           <p>Stocks & Intraday</p>
+          <i class="fa-solid fa-angle-right"></i>
         </div>
         <div className="Mutual">
           <img
