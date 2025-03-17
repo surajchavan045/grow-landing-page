@@ -10,6 +10,7 @@
     padding-right: 200px;
 }
 .para-1 {
+    color: #44475b;
     font-size: 4rem;
     line-height: 0%;
     font-weight: 300;
@@ -22,17 +23,19 @@
 }
 
 .container-right {
+    padding-top: 50px;
     padding-right: 40px;
     padding-left: 80px;
 }
 
 .stock {
     display: flex;
-    padding: 15px;
+    padding: 10px;
     gap: 20px;
     border: 1px solid rgb(230, 227, 227);
     border-radius: 10px;
-    margin-right: 150px;
+    margin-right: 180px;
+    cursor: pointer;
 }
 
 .stock img {
@@ -46,5 +49,67 @@
 
 .stock i {
     padding: 20px;
-    /* padding-left: 350px; */
+    padding-left: 200px;
+}
+
+.stock:hover {
+    background-color: beige;
+}
+
+.mutual {
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    gap: 20px;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 10px;
+    margin-right: 180px;
+    cursor: pointer;
+}
+
+.mutual img {
+    width: 40px;
+    height: 50px;
+}
+
+.mutual p {
+    font-size: 1.2rem;
+}
+
+.mutual i {
+    padding: 20px;
+    padding-left: 175px;
+}
+
+.mutual:hover {
+    background-color: beige;
+}
+
+.futures {
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    gap: 20px;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 10px;
+    margin-right: 180px;
+    cursor: pointer;
+}
+
+.futures img {
+    width: 40px;
+    height: 50px;
+}
+
+.futures p {
+    font-size: 1.2rem;
+}
+
+.futures i {
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.futures:hover {
+    background-color: beige;
 }

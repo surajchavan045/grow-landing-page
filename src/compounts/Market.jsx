@@ -24,12 +24,13 @@ function Market() {
           <p>Stocks & Intraday</p>
           <i class="fa-solid fa-angle-right"></i>
         </div>
-        <div className="Mutual">
+        <div className="mutual">
           <img
             src="https://assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/mutualFundBlocks.ee53101c.webp"
             alt=""
           />
           <p>Mutual funds & SIPs</p>
+          <i class="fa-solid fa-angle-right"></i>
         </div>
         <div className="futures">
           <img
@@ -37,13 +38,14 @@ function Market() {
             alt=""
           />
           <p>Futures & Options</p>
+          <i class="fa-solid fa-angle-right"></i>
         </div>
       </div>
       <div className="container-right">
         <img
           src="https://assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/stocksBuy.5382418f.webp"
           alt=""
-          width={300}
+          width={310}
         />
       </div>
     </div>
